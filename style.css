@@ -1,0 +1,58 @@
+.app {
+  background: rgba(200, 125, 45, 0.6);
+}
+
+.container_titulo {
+  font-size: 2rem;
+  font-family: cursive;
+  display: flex;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container_parrafo {
+  display: flex;
+  font-size: 1.3rem;
+  font-family: cursive;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin: .5rem 0;
+}
+
+.container_input {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  background: black;
+  color: whitesmoke;
+}
+
+.btn {
+  text-align: center;
+}
+
+.container_btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin: 0 .5rem;
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+.result {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-family: cursive;
+  text-align: center;
+}

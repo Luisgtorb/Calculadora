@@ -55,10 +55,10 @@ function crearRespuesta(texto) {
 
 function inputs() {
   valorUno.setAttribute("minlength", "1");
-  valorUno.setAttribute("maxlength", "6");
+  valorUno.setAttribute("maxlength", "10");
   valorUno.setAttribute("onkeypress", "return validaNumeros(event)");
   valorDos.setAttribute("minlength", "1");
-  valorDos.setAttribute("minlength", "6");
+  valorDos.setAttribute("maxlength", "10");
   valorDos.setAttribute("onkeypress", "return validaNumeros(event)");
 }
 

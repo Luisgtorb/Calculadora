@@ -56,8 +56,20 @@ function crearRespuesta(texto) {
 function inputs() {
   valorUno.setAttribute("minlength", "1");
   valorUno.setAttribute("maxlength", "6");
+  valorUno.setAttribute("onkeypress", "return validaNumeros(event)");
   valorDos.setAttribute("minlength", "1");
   valorDos.setAttribute("minlength", "6");
+  valorDos.setAttribute("onkeypress", "return validaNumeros(event)");
 }
 
 inputs();
+
+function validaNumeros(event) {
+  let key = event.keyCode || event.which;
+  let board = String.fromCharCode(key);
+  let numb = "0123456789.";
+
+  if(numb.indexOf(board) == -1) {
+    return false;
+  }
+}
